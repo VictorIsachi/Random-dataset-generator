@@ -1,3 +1,4 @@
+Compile with: gcc generate_dataset.c -o [dataset_name]
 This program generates a dataset of random points.
 The program is called with:
 
