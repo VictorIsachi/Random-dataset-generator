@@ -1,11 +1,10 @@
-Compile with: gcc generate_dataset.c -o <name_of_executable>
-This program generates a dataset of N random k-dimentional points. The type of the pointset is float. Every number n is within the interval [-range, range].
+This program generates a dataset of random points.
 The program is called with:
 
 generate_dataset input_param_file > dataset_file
 
 where the input_param_file contains the parameters for the generation of the dataset.
 This file must follow the format:
-number_of_points dimensionality_of_the_dataset range.
-Example of use:
+number_of_points dimensionality_of_the_dataset range
+Ex:
 ./generate_dataset input > ./generated_datasets/dataset
